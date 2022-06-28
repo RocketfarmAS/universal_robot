@@ -2,7 +2,7 @@ kinematics:
   shoulder:
     x: 0
     y: 0
-    z: 0.1807
+    z: 0.24670
     roll: 0
     pitch: 0
     yaw: 0
@@ -14,22 +14,22 @@ kinematics:
     pitch: 0
     yaw: 0
   forearm:
-    x: -0.6127
+    x: -0.86200
     y: 0
     z: 0
     roll: 0
     pitch: 0
     yaw: 0
   wrist_1:
-    x: -0.57155
+    x: -0.72870
     y: 0
-    z: 0.17415
+    z: 0.201
     roll: 0
     pitch: 0
     yaw: 0
   wrist_2:
     x: 0
-    y: -0.11985
+    y: -0.15470
     z: -2.458164590756244e-11
     roll: 1.570796327
     pitch: 0
@@ -37,7 +37,7 @@ kinematics:
   wrist_3:
     x: 0
     y: 0.11655
-    z: -2.390480459346185e-11
+    z: - 0.04170
     roll: 1.570796326589793
     pitch: 3.141592653589793
     yaw: 3.141592653589793
