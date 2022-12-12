@@ -2,7 +2,7 @@ kinematics:
   shoulder:
     x: 0
     y: 0
-    z: 0.2467 #0.237 
+    z: 0.23630 
     roll: -0
     pitch: 0
     yaw: -0
