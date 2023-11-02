@@ -4,7 +4,7 @@ dh_parameters:
   d1: 0.23630
   a2: -0.862
   a3: -0.7287
-  d4: 0.201        # wrist1_length = d4 - elbow_offset - shoulder_offset 
+  d4: 0.201 # wrist1_length = d4 - elbow_offset - shoulder_offset
   d5: 0.1593
   d6: 0.15470
 
@@ -13,7 +13,7 @@ offsets:
   elbow_offset: 0.0393 # measured from model
 
 inertia_parameters:
-  base_mass: 4.0  # This mass might be incorrect
+  base_mass: 4.0 # This mass might be incorrect
   shoulder_mass: 16.244
   upper_arm_mass: 29.269
   upper_arm_inertia_offset: 0.175 # measured from model
@@ -22,25 +22,25 @@ inertia_parameters:
   wrist_2_mass: 3.1515
   wrist_3_mass: 0.83
 
-  shoulder_radius: x0.060   # FROM UR5 DON'T USE
-  upper_arm_radius: x0.054  # FROM UR5 DON'T USE
-  elbow_radius: x0.060      # FROM UR5 DON'T USE
-  forearm_radius: x0.040    # FROM UR5 DON'T USE
-  wrist_radius: x0.045      # FROM UR5 DON'T USE
+  shoulder_radius: x0.060 # FROM UR5 DON'T USE
+  upper_arm_radius: x0.054 # FROM UR5 DON'T USE
+  elbow_radius: x0.060 # FROM UR5 DON'T USE
+  forearm_radius: x0.040 # FROM UR5 DON'T USE
+  wrist_radius: x0.045 # FROM UR5 DON'T USE
 
   links:
     base:
       radius: 0.075
       length: 0.038
     shoulder:
-      radius: 0.075
+      radius: 0.090
       length: 0.178
     upperarm:
-      radius: 0.075
-      length: 0.862    # Updated for UR20
+      radius: 0.090
+      length: 0.862 # Updated for UR20
     forearm:
       radius: 0.075
-      length: 0.7287    # Updated for UR20
+      length: 0.7287 # Updated for UR20
     wrist_1:
       radius: 0.075
       length: 0.12
