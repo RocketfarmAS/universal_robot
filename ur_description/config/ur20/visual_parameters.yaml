@@ -46,7 +46,7 @@ mesh_files:
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh: "package://ur_description/meshes/ur20/collision/wrist1.stl"
-    visual_offset: -0.135
+    visual_offset: -0.0775
 
   wrist_2:
     visual:
@@ -56,7 +56,7 @@ mesh_files:
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh: "package://ur_description/meshes/ur20/collision/wrist2.stl"
-    visual_offset: -0.12
+    visual_offset: -0.0749
 
   wrist_3:
     visual:
@@ -66,4 +66,4 @@ mesh_files:
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh: "package://ur_description/meshes/ur20/collision/wrist3.stl"
-    visual_offset: -0.1168
+    visual_offset: -0.07
